@@ -1,0 +1,629 @@
+<!doctype html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>blazed labz — Alexander Nielsen, multimedia design graduate</title>
+  <meta name="description" content="Blazed Labz — a small European design and engineering studio. Apps, tools, video edits, and the occasional weird side project.">
+  <link rel="icon" href="assets/mark-blazed.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&family=Geist:wght@100..900&family=JetBrains+Mono:wght@100..800&family=Caveat:wght@400..700&family=Caveat+Brush&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+
+<!-- NAV -->
+<nav class="nav" id="nav">
+  <div class="nav__pill">
+    <div class="nav__brand">blazed<span class="star">✱</span>labz</div>
+    <div class="nav__links">
+      <a href="#work" class="is-active" data-nav="work">work</a>
+      <a href="#about" data-nav="about">about</a>
+      <a href="#contact" data-nav="contact">contact</a>
+    </div>
+    <div class="nav__meta">
+      <span class="nav__date" id="nav-date">DK · 01.05.26</span>
+      <button class="nav__theme" id="theme-toggle" aria-label="Toggle theme"></button>
+    </div>
+  </div>
+</nav>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero" id="hero">
+    <div class="hero__eyebrow">
+      <span class="caption">✱ Blazed Labz · est. 2026</span>
+      <span class="hero__rule"></span>
+      <span class="caption">One-person studio · Europe</span>
+    </div>
+    <h1 class="hero__title">
+      <span>design &amp;</span>
+      <span>code, made</span>
+      <span>by hand<span class="dot">.</span></span>
+    </h1>
+    <div class="hero__sub">
+      <p class="hero__lede">
+        We're Blazed Labz — apps, tools, video edits, and the
+        occasional weird side project.
+        <em>One thing at a time. Always shipping.</em>
+      </p>
+      <div class="hero__cta">
+        <span class="marginalia hero__hi">say hi ↘</span>
+        <div class="hero__cta-row">
+          <a class="btn btn--primary" href="#contact">Get in touch</a>
+          <a class="btn btn--ghost" href="assets/Alexander-Nielsen-CV.pdf" target="_blank" rel="noopener">Resume / CV ↗</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WORK -->
+  <section class="work" id="work">
+    <div class="section-head">
+      <span class="caption">— Selected work · 2020–26</span>
+      <span class="section-head__rule"></span>
+      <span class="section-head__count">03 / shipped</span>
+    </div>
+
+    <!-- 01 FocusBloom -->
+    <article class="row" data-row="01">
+      <button class="row__head" type="button" aria-expanded="false" aria-controls="preview-01">
+        <span class="row__num">01</span>
+        <span class="row__title-wrap">
+          <span class="row__title">FocusBloom<span class="row__flag">Currently shipping →</span></span>
+          <span class="row__sub">Calm streaks for ADHD brains. iOS · 2026.</span>
+        </span>
+        <span class="row__year">2026</span>
+        <span class="row__plus" aria-hidden="true"></span>
+      </button>
+
+      <div class="preview" id="preview-01">
+        <div class="preview__inner">
+          <div class="cover cover--focusbloom">
+            <div class="cover__inner">
+              <div class="cover__col">
+                <span class="cover__eyebrow">✱ Today screen · iOS · v1.0</span>
+                <h3 class="cover__h">Calm streaks.<br>No shame.</h3>
+                <p class="cover__lede">
+                  One affirmation. One thing for today. A streak that forgives the
+                  missed days. Built end-to-end in SwiftUI.
+                </p>
+                <div class="cover__chips">
+                  <span class="cover__chip">SwiftUI</span>
+                  <span class="cover__chip">SwiftData</span>
+                  <span class="cover__chip">BYO API key</span>
+                </div>
+              </div>
+              <img class="cover__phone-img" src="assets/focusbloom-today.png" alt="FocusBloom — Today screen" width="1206" height="2622">
+            </div>
+          </div>
+
+          <div class="preview__meta">
+            <span class="caption">— About this</span>
+            <p>An iOS app for ADHD brains. Calm streaks, gentle nudges, no shame. Built end-to-end at Blazed Labz — design, code, copy, the whole thing. Shipping to TestFlight June '26.</p>
+            <span class="caption">— Role</span>
+            <p class="role">Design · iOS engineering · Identity</p>
+            <span class="caption">— Stack</span>
+            <div class="preview__tags">
+              <span class="tag">SwiftUI</span>
+              <span class="tag">SwiftData</span>
+              <span class="tag">On-device AI</span>
+            </div>
+            <div class="preview__cta">
+              <button class="btn btn--ghost" type="button" data-case-toggle>View case study →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="case" data-accent="forest">
+        <div class="case__inner">
+          <header class="case__header">
+            <span class="case__num">01 / case</span>
+            <div>
+              <span class="case__meta">Blazed Labz · Shipping June 2026</span>
+              <h2 class="case__title">FocusBloom<span class="case__title-flag">Currently shipping →</span></h2>
+              <p class="case__subhead">Calm streaks for ADHD brains. iOS · 2026.</p>
+            </div>
+          </header>
+
+          <section class="case__section">
+            <span class="case__section-label">— The brief</span>
+            <p class="case__brief">Most productivity apps punish you for missing a day. The streak resets, the bar turns red, the shame compounds. That doesn't work for ADHD brains — it makes things worse. FocusBloom is the opposite: a streak that forgives, an affirmation that meets you where you are, and one small thing for today. No shame, no nudges turned threats. Built end-to-end at Blazed Labz — design, code, copy, identity.</p>
+          </section>
+
+          <section class="case__section">
+            <span class="case__section-label">— The process</span>
+            <div class="case__paragraphs">
+              <p>Built in SwiftUI with SwiftData for local-first storage. On-device AI for the affirmation generation — your data never leaves your phone.</p>
+              <p>The Today screen is intentionally quiet: one affirmation, one task, one streak. Everything else is one tap away. The check-in flow uses gentle language by design — "How's today going?" instead of "Did you do it?" — because the wording is the product.</p>
+            </div>
+          </section>
+
+          <div class="case__strip">
+            <span>SwiftUI</span><span>SwiftData</span><span>On-device AI</span><span>In-house</span><span>Shipping Jun '26</span>
+          </div>
+
+          <section class="case__section">
+            <span class="case__section-label">— The work</span>
+            <div class="case__work">
+              <figure class="case__figure">
+                <div class="case__card">
+                  <span class="bracket tl"></span><span class="bracket tr"></span>
+                  <span class="bracket bl"></span><span class="bracket br"></span>
+                  <div class="case__card-inner">
+                    <img src="assets/focusbloom-today.png" alt="FocusBloom — Today screen" width="1206" height="2622" loading="lazy">
+                  </div>
+                </div>
+                <figcaption class="case__caption">The Today screen. One affirmation, one task, one streak.</figcaption>
+              </figure>
+              <figure class="case__figure">
+                <div class="case__card">
+                  <span class="bracket tl"></span><span class="bracket tr"></span>
+                  <span class="bracket bl"></span><span class="bracket br"></span>
+                  <div class="case__card-inner">
+                    <img src="assets/focusbloom-streak.png" alt="FocusBloom — Streak view" width="1206" height="2622" loading="lazy">
+                  </div>
+                </div>
+                <figcaption class="case__caption">A streak that forgives missed days. The shape softens; it doesn't break.</figcaption>
+              </figure>
+              <figure class="case__figure">
+                <div class="case__card">
+                  <span class="bracket tl"></span><span class="bracket tr"></span>
+                  <span class="bracket bl"></span><span class="bracket br"></span>
+                  <div class="case__card-inner">
+                    <img src="assets/focusbloom-coach.png" alt="FocusBloom — Coach check-in" width="1206" height="2622" loading="lazy">
+                  </div>
+                </div>
+                <figcaption class="case__caption">The Coach tab. Conversational, on-device, never punishing.</figcaption>
+              </figure>
+            </div>
+          </section>
+
+          <section class="case__section">
+            <span class="case__section-label">— What I learned</span>
+            <div class="case__paragraphs">
+              <p>Designing for ADHD brains taught me that defaults are everything. Most apps' defaults assume a neurotypical user with strong executive function. Inverting that — assuming the user might be having a hard day, every day — changed almost every interaction.</p>
+              <p>Shipping an iOS app from design to TestFlight in-house also reframed what "finished" means. There's no version of this app that's done; there's just the version that's good enough to ship to the next round of testers.</p>
+            </div>
+          </section>
+
+          <footer class="case__credits">
+            <div>
+              <span class="case__section-label">— Credits &amp; links</span>
+              <p>Built at Blazed Labz. Design, iOS engineering, identity, copy.</p>
+              <div class="case__credits-links">
+                <a href="#contact">TestFlight · June 2026 ↗</a>
+                <a href="#contact">Built in Cursor + Xcode ↗</a>
+              </div>
+            </div>
+            <a class="case__back" href="#work">↑ Back to top</a>
+          </footer>
+        </div>
+      </div>
+    </article>
+
+    <!-- 02 Greenpeace -->
+    <article class="row" data-row="02">
+      <button class="row__head" type="button" aria-expanded="false" aria-controls="preview-02">
+        <span class="row__num">02</span>
+        <span class="row__title-wrap">
+          <span class="row__title">Greenpeace · Spark Movements</span>
+          <span class="row__sub">Real-client campaign for Greenpeace DK. Concept, video, microsite.</span>
+          <span class="row__status">KEA · 2nd Semester · with Greenpeace DK</span>
+        </span>
+        <span class="row__year">2020</span>
+        <span class="row__plus" aria-hidden="true"></span>
+      </button>
+
+      <div class="preview" id="preview-02">
+        <div class="preview__inner">
+          <div class="cover cover--greenpeace">
+            <div class="cover__inner">
+              <div class="cover__col">
+                <span class="cover__eyebrow">✱ Campaign · Greenpeace DK · 2020</span>
+                <h3 class="cover__h">Spark a movement.<br>Bring a friend.</h3>
+                <p class="cover__lede">
+                  Two-week real-client brief. Research → concept → motion-graphic
+                  video → microsite — funnelling young Danes into Greenpeace's
+                  græsrod.org grassroots platform.
+                </p>
+                <div class="cover__chips">
+                  <span class="cover__chip">Concept</span>
+                  <span class="cover__chip">UX</span>
+                  <span class="cover__chip">Frontend</span>
+                  <span class="cover__chip">Video</span>
+                </div>
+              </div>
+              <div class="poster poster--greenpeace">
+                <span class="corner-ticks" aria-hidden="true"><i></i><i></i></span>
+                <div class="poster__topstrip"><span>GRÆSROD.ORG</span><span>2020 · DK</span></div>
+                <svg class="poster__leaf" viewBox="0 0 200 200" aria-hidden="true">
+                  <path d="M 30 170 Q 30 60 170 30 Q 150 130 30 170 Z" fill="#C6F24E"/>
+                  <path d="M 30 170 Q 90 110 170 30" stroke="#0E2E0A" stroke-width="2" fill="none" opacity="0.4"/>
+                </svg>
+                <div class="poster__big"><div>BE</div><div>THE</div><div>SPARK.</div></div>
+                <div class="poster__playline">
+                  <span class="poster__play">▶</span>
+                  <span>02:14 · Film</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="preview__meta">
+            <span class="caption">— About this</span>
+            <p>A user-centered campaign to inspire young Danes to start grassroots climate movements through Greenpeace's græsrod.org platform. Real client brief, two weeks: research, concept, prototype, motion-graphic video, and a microsite to host it.</p>
+            <span class="caption">— Role</span>
+            <p class="role">Concept · UX · Frontend · Video direction</p>
+            <span class="caption">— Stack</span>
+            <div class="preview__tags">
+              <span class="tag">UCD</span>
+              <span class="tag">Campaign</span>
+              <span class="tag">Video</span>
+            </div>
+            <div class="preview__cta">
+              <button class="btn btn--ghost" type="button" data-case-toggle>View case study →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="case" data-accent="greenpeace">
+        <div class="case__inner">
+          <header class="case__header">
+            <span class="case__num">02 / case</span>
+            <div>
+              <span class="case__meta">KEA · 2nd Semester · 2020 · Team of 5</span>
+              <h2 class="case__title">Greenpeace · Spark Movements</h2>
+              <p class="case__subhead">Real-client campaign for Greenpeace DK. Concept, video, microsite.</p>
+            </div>
+          </header>
+
+          <section class="case__section">
+            <span class="case__section-label">— The brief</span>
+            <p class="case__brief">Greenpeace DK wanted to reach an audience they normally don't: Danish teens, 13–15 years old, and inspire them to start their own grassroots climate campaigns through graesrod.org — Greenpeace's open campaigning platform. Two weeks. Real client. No template.</p>
+          </section>
+
+          <div class="case__quote">
+            <blockquote>We'd rather join someone else's campaign than start our own.</blockquote>
+            <cite>— Recurring response across 9 group interviews</cite>
+          </div>
+
+          <section class="case__section">
+            <span class="case__section-label">— The process</span>
+            <div class="case__paragraphs">
+              <p>We went to a high school. Roskilde Highschool, Friday March 6th. Two team members, 9 groups of teens, face-to-face interviews. Phones out. We asked about climate change, campaigns, social media habits, and games.</p>
+              <p>Then we did something the brief didn't ask for: we borrowed VR headsets from KEA's tech lounge and ran usability testing with Greenpeace's 360° campaign videos. The teens loved it. The novelty pulled them in; the content kept them.</p>
+            </div>
+          </section>
+
+          <div class="case__strip">
+            <span>9 groups</span><span>18 students</span><span>1 VR headset</span><span>5 hypotheses</span>
+          </div>
+
+          <div class="case__work-intro">
+            <p>The campaign mechanic: Instagram meme ads drive teens to a microsite. A world map is the primary navigation — click a region, a 360° Greenpeace video opens (watchable with or without VR). After watching, a meme appears with a CTA back to graesrod.org to start your own campaign.</p>
+          </div>
+
+          <section class="case__section">
+            <span class="case__section-label">— The work</span>
+            <div class="case__work">
+              <figure class="case__figure">
+                <div class="case__card">
+                  <span class="bracket tl"></span><span class="bracket tr"></span>
+                  <span class="bracket bl"></span><span class="bracket br"></span>
+                  <div class="case__card-inner">
+                    <img src="assets/greenpeace/03_hifi_prototype_all_screens.png" alt="World-map landing — hi-fi prototype" width="604" height="529" loading="lazy">
+                  </div>
+                </div>
+                <figcaption class="case__caption">The microsite landing. Click a region to open a 360° video.</figcaption>
+              </figure>
+              <figure class="case__figure">
+                <div class="case__card">
+                  <span class="bracket tl"></span><span class="bracket tr"></span>
+                  <span class="bracket bl"></span><span class="bracket br"></span>
+                  <div class="case__card-inner">
+                    <video autoplay muted loop playsinline preload="metadata" aria-label="Climate-strike footage from the campaign archive">
+                      <source src="assets/greenpeace/protest-clip.mp4" type="video/mp4">
+                    </video>
+                  </div>
+                </div>
+                <figcaption class="case__caption">Climate-strike footage from the campaign archive — the kind of energy we were trying to channel.</figcaption>
+              </figure>
+              <figure class="case__figure">
+                <div class="case__card">
+                  <span class="bracket tl"></span><span class="bracket tr"></span>
+                  <span class="bracket bl"></span><span class="bracket br"></span>
+                  <div class="case__card-inner">
+                    <img src="assets/greenpeace/02_style_tile.png" alt="Greenpeace · Spark Movements — style tile" width="884" height="647" loading="lazy">
+                  </div>
+                </div>
+                <figcaption class="case__caption">After the video, a meme. After the meme, a call to action.</figcaption>
+              </figure>
+            </div>
+          </section>
+
+          <section class="case__section">
+            <span class="case__section-label">— What I learned</span>
+            <div class="case__paragraphs">
+              <p>Real client briefs change everything. Research stops being theoretical; the people you're designing for are 13 and tell you exactly what they think. The target audience was younger than Greenpeace usually targets, which meant their existing campaign playbook didn't apply — we had to build something from scratch in two weeks.</p>
+              <p>Testing with VR was a gamble that paid off. It wouldn't have shown up in desk research as the "right" channel, but watching teens fight for the headset told us more than any survey could.</p>
+            </div>
+          </section>
+
+          <footer class="case__credits">
+            <div>
+              <span class="case__section-label">— Credits &amp; links</span>
+              <p>Team of five. My role: concept, UX, frontend, video direction.</p>
+              <div class="case__credits-links">
+                <a href="#contact">Project archived · no longer publicly hosted ↗</a>
+              </div>
+            </div>
+            <a class="case__back" href="#work">↑ Back to top</a>
+          </footer>
+        </div>
+      </div>
+    </article>
+
+    <!-- 03 Wanderlust -->
+    <article class="row" data-row="03">
+      <button class="row__head" type="button" aria-expanded="false" aria-controls="preview-03">
+        <span class="row__num">03</span>
+        <span class="row__title-wrap">
+          <span class="row__title">Wanderlust</span>
+          <span class="row__sub">Travel guide for 18–25 backpackers. KEA T7, group of four.</span>
+          <span class="row__status">KEA · 2nd Semester · Group project</span>
+        </span>
+        <span class="row__year">2020</span>
+        <span class="row__plus" aria-hidden="true"></span>
+      </button>
+
+      <div class="preview" id="preview-03">
+        <div class="preview__inner">
+          <div class="cover cover--wanderlust">
+            <div class="cover__inner">
+              <div class="cover__col">
+                <span class="cover__eyebrow">✱ Travel guide · KEA T7 · 2020</span>
+                <h3 class="cover__h">Pack light.<br>Go far.</h3>
+                <p class="cover__lede">
+                  A multi-page travel guide for young backpackers heading through
+                  Denmark, Norway and Poland. Full UX process — research, wireframes,
+                  style tiles, BERT testing, brand identity. Built in a team of four for
+                  KEA's 2nd-semester final. Deployed live.
+                </p>
+                <div class="cover__chips">
+                  <span class="cover__chip">UX</span>
+                  <span class="cover__chip">Brand</span>
+                  <span class="cover__chip">Frontend</span>
+                  <span class="cover__chip">Group</span>
+                </div>
+              </div>
+              <div class="poster poster--wanderlust">
+                <span class="corner-ticks" aria-hidden="true"><i></i><i></i></span>
+                <div class="poster__nav"><span>HOME</span><span>·</span><span>CONTINENTS</span><span>·</span><span>TIPS</span></div>
+                <div class="poster__wordmark">
+                  <span>Wanderlust</span>
+                  <svg width="18" height="22" viewBox="0 0 18 22" aria-hidden="true">
+                    <g fill="#F4EFE2">
+                      <circle cx="9" cy="3.5" r="2.2"/>
+                      <path d="M5.5 8 Q9 6 12.5 8 L13 16 L11 16 L11 21 L7 21 L7 16 L5 16 Z"/>
+                      <rect x="4" y="9" width="2.5" height="6" rx="1" opacity="0.85"/>
+                    </g>
+                  </svg>
+                </div>
+                <div class="poster__sub">Start your<br>journey</div>
+                <div class="poster__horizon" aria-hidden="true"></div>
+                <div class="poster__footstrip">DK · NO · PL · GITHUB.IO · 2020</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="preview__meta">
+            <span class="caption">— About this</span>
+            <p>A multi-page travel guide for young backpackers heading through Denmark, Norway and Poland. Full UCD process — Business Model Canvas, persona research, flowcharts, wireframes, three style-tile rounds, BERT emotional-response testing, expert review and think-aloud usability tests — wrapped in a custom brand from scratch. Built in a team of four. Deployed live.</p>
+            <span class="caption">— Role</span>
+            <p class="role">UX · Brand · Frontend · Group of 4</p>
+            <span class="caption">— Stack</span>
+            <div class="preview__tags">
+              <span class="tag">UCD</span>
+              <span class="tag">Web</span>
+              <span class="tag">Brand</span>
+            </div>
+            <div class="preview__cta">
+              <button class="btn btn--ghost" type="button" data-case-toggle>View case study →</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="case" data-accent="coral">
+        <div class="case__inner">
+          <header class="case__header">
+            <span class="case__num">03 / case</span>
+            <div>
+              <span class="case__meta">KEA · 2nd Semester · 2020 · Group project</span>
+              <h2 class="case__title">Wanderlust</h2>
+              <p class="case__subhead">A travel guide for 18–25 backpackers. Built in a team of four.</p>
+            </div>
+          </header>
+
+          <section class="case__section">
+            <span class="case__section-label">— The brief</span>
+            <p class="case__brief">KEA's T7 final assignment: build a website around something the team has in common, end-to-end. Research, brand, frontend, testing — the lot. We chose travel. Specifically, backpacker travel for an 18–25 urban audience: Denmark, Norway, Poland. JSON-fetched content, multi-page, deployed live. Four people, one repo, 129 commits.</p>
+          </section>
+
+          <section class="case__section">
+            <span class="case__section-label">— The process</span>
+            <div class="case__paragraphs">
+              <p>Full UCD process, by the book and then some. Business Model Canvas → personas → flow charts → wireframes → three rounds of style tiles → BERT (bipolar emotional response testing) on the style tiles → first prototype → expert review with the teachers → second iteration → think-aloud usability test → final.</p>
+              <p>The brand was developed from scratch — handwritten Wanderlust wordmark, backpacker silhouette mark, deep teal-to-coral sunset palette. Style tiles were tested with the target audience using BERT bipolar scales (Modern–Old Fashioned, Friendly–Intimidating, Adventurous–Safe). The winning direction informed everything downstream.</p>
+            </div>
+          </section>
+
+          <div class="case__strip">
+            <span>129 commits</span><span>4 teammates</span><span>3 countries</span><span>7 templates</span><span>2 iterations</span>
+          </div>
+
+          <section class="case__section">
+            <span class="case__section-label">— The work</span>
+            <div class="case__work">
+              <figure class="case__figure">
+                <div class="case__card">
+                  <span class="bracket tl"></span><span class="bracket tr"></span>
+                  <span class="bracket bl"></span><span class="bracket br"></span>
+                  <div class="case__card-inner case__card-inner--cover">
+                    <img src="assets/wanderlust-homepage.jpg" alt="Wanderlust — homepage hero" width="2490" height="7874" loading="lazy">
+                  </div>
+                </div>
+                <figcaption class="case__caption">The homepage. Start broad, narrow by interest.</figcaption>
+              </figure>
+              <figure class="case__figure">
+                <div class="case__card">
+                  <span class="bracket tl"></span><span class="bracket tr"></span>
+                  <span class="bracket bl"></span><span class="bracket br"></span>
+                  <div class="case__card-inner case__card-inner--cover">
+                    <img src="assets/wanderlust-country.png" alt="Wanderlust — country page" width="2490" height="2976" loading="lazy">
+                  </div>
+                </div>
+                <figcaption class="case__caption">Country pages with activities, flights, accommodation, and local tips.</figcaption>
+              </figure>
+              <figure class="case__figure">
+                <div class="case__card">
+                  <span class="bracket tl"></span><span class="bracket tr"></span>
+                  <span class="bracket bl"></span><span class="bracket br"></span>
+                  <div class="case__card-inner">
+                    <img src="assets/wanderlust-styletiles.png" alt="Wanderlust — winning style-tile direction" width="1600" height="950" loading="lazy">
+                  </div>
+                </div>
+                <figcaption class="case__caption">Three style-tile directions. The third — teal, peach, sunset textures — won the BERT round and shaped the final brand.</figcaption>
+              </figure>
+            </div>
+          </section>
+
+          <section class="case__section">
+            <span class="case__section-label">— What I learned</span>
+            <div class="case__paragraphs">
+              <p>Group projects are 30% craft and 70% process. The Trello board, the shared Figma, the daily standups — none of that is glamorous, but it's what kept four people aligned across two weeks of iteration.</p>
+              <p>BERT testing changed how I think about visual design. We had three strong style tiles; without testing we'd have picked the one we personally liked. The audience picked a different one — and they were right for this audience.</p>
+            </div>
+          </section>
+
+          <footer class="case__credits">
+            <div>
+              <span class="case__section-label">— Credits &amp; links</span>
+              <p>Team of four. My role: UX, brand, frontend.</p>
+              <div class="case__credits-links">
+                <a href="https://alexandernielsen95.github.io/travel-assignment-/" target="_blank" rel="noopener noreferrer">Live site ↗</a>
+                <a href="https://github.com/Alexandernielsen95/travel-assignment-" target="_blank" rel="noopener noreferrer">Source on GitHub ↗</a>
+              </div>
+            </div>
+            <a class="case__back" href="#work">↑ Back to top</a>
+          </footer>
+        </div>
+      </div>
+    </article>
+
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div>
+      <span class="caption">— About</span>
+      <div class="about__portrait">
+        <img src="assets/portrait.jpeg" alt="Alexander Nielsen, portrait" width="800" height="800">
+        <span class="marginalia">that's me ↗</span>
+      </div>
+    </div>
+    <div class="about__body">
+      <h2 class="about__h">Multimedia design graduate.<br>Indie studio of one<span class="dot">.</span></h2>
+      <div class="about__paragraphs">
+        <p>I'm a multimedia design graduate from KEA (2022) running Blazed Labz — a small European studio building apps, tools, and video edits. Design, code, writing, the late nights. Sometimes that means slower. Mostly it means weirder.</p>
+        <p>I like type that earns its size, motion that has a reason, and interfaces that don't apologize for being opinionated. Currently shipping <em>FocusBloom</em>, an iOS app for ADHD brains.</p>
+      </div>
+      <div class="about__grid">
+        <div>
+          <span class="caption">— Education</span>
+          <p>AP Degree in Multimedia Design &amp; Communication<br><span>KEA · 2019–2022</span></p>
+        </div>
+        <div>
+          <span class="caption">— Design</span>
+          <p>Figma · Sketch · Adobe XD<br>Photoshop · Illustrator · InDesign</p>
+        </div>
+        <div>
+          <span class="caption">— Build &amp; AI</span>
+          <p>HTML · CSS · JavaScript · Swift<br>Cursor · Claude Code · Claude Design<br>After Effects · Premiere · Final Cut</p>
+        </div>
+        <div>
+          <span class="caption">— Open to</span>
+          <p>Internships · freelance · collaborations<br><span>DK · EN · remote</span></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact" id="contact">
+    <div>
+      <span class="caption">— Contact</span>
+      <h2 class="contact__h">Got a weird<br>idea? <span class="accent">Send it.</span></h2>
+      <p class="contact__lede">I'm open to internships, freelance, and collaborations on the stranger-than-usual end. I read every email. Reply within a day or two.</p>
+      <div class="contact__socials">
+        <a class="social" href="mailto:alexandernielsen251@gmail.com" aria-label="Email Alexander">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 7l9 6 9-6"/>
+          </svg>
+        </a>
+        <a class="social" href="https://github.com/Alexandernielsen95" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.5 2.87 8.32 6.84 9.67.5.1.68-.22.68-.49 0-.24-.01-.87-.01-1.71-2.78.62-3.37-1.36-3.37-1.36-.45-1.18-1.11-1.5-1.11-1.5-.91-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.55-1.13-4.55-5.04 0-1.11.39-2.02 1.03-2.74-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.4 9.4 0 0112 6.84c.85.004 1.71.12 2.51.34 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.74 0 3.92-2.34 4.78-4.57 5.03.36.32.68.94.68 1.9 0 1.37-.01 2.48-.01 2.82 0 .27.18.6.69.49C19.14 20.58 22 16.76 22 12.26 22 6.58 17.52 2 12 2z"/>
+          </svg>
+        </a>
+        <a class="social" href="https://www.linkedin.com/in/alexander-nielsen-1b2a4a190/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path d="M4.98 3.5C4.98 4.88 3.87 6 2.5 6S0 4.88 0 3.5 1.13 1 2.5 1s2.48 1.12 2.48 2.5zM.22 8h4.56v14H.22V8zm7.34 0h4.37v1.92h.06c.61-1.16 2.1-2.38 4.32-2.38 4.62 0 5.47 3.04 5.47 7v7.46h-4.55v-6.61c0-1.58-.03-3.61-2.2-3.61-2.2 0-2.54 1.72-2.54 3.5V22H7.56V8z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+
+    <form class="form" id="contact-form" action="https://formspree.io/f/xdabekke" method="POST" novalidate>
+      <input class="form__honeypot" type="text" name="_gotcha" tabindex="-1" autocomplete="off" aria-hidden="true">
+      <label class="form__field">
+        <span>— your name</span>
+        <input type="text" name="name" placeholder="alexander" required>
+      </label>
+      <label class="form__field">
+        <span>— email</span>
+        <input type="email" name="email" placeholder="hello@somewhere.com" required>
+      </label>
+      <label class="form__field">
+        <span>— what's the project</span>
+        <textarea name="message" rows="3" placeholder="A line or two is fine. I read every one." required></textarea>
+      </label>
+      <div class="form__foot">
+        <span class="form__foot-note" id="form-note">no spam, ever</span>
+        <button type="submit" class="btn btn--primary">Send →</button>
+      </div>
+    </form>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <span class="foot__brand">blazed<span class="star">✱</span>labz</span>
+  <span class="foot__meta">Made by hand · Europe · 2026</span>
+  <div class="foot__links">
+    <a href="https://github.com/Alexandernielsen95" target="_blank" rel="noopener noreferrer">github</a>
+    <a href="https://www.linkedin.com/in/alexander-nielsen-1b2a4a190/" target="_blank" rel="noopener noreferrer">linkedin</a>
+    <a href="mailto:alexandernielsen251@gmail.com">email</a>
+  </div>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
