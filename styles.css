@@ -1348,12 +1348,14 @@ img, svg { display: block; max-width: 100%; }
   .preview__inner { grid-template-columns: 1fr; gap: var(--space-5); padding-bottom: var(--space-6); }
   .cover { min-height: auto; }
   .cover__inner {
+    position: static;
     grid-template-columns: 1fr;
     grid-template-rows: auto auto;
     padding: 22px 22px 24px;
     gap: 22px;
   }
   .cover__phone-img { max-width: 220px; max-height: 480px; margin: 0 auto; }
+  .cover__lede { font-size: 14px; }
   .poster { min-height: 360px; }
 
   /* Case study reflows to single column */
@@ -1368,6 +1370,8 @@ img, svg { display: block; max-width: 100%; }
   }
   .case__paragraphs { grid-template-columns: 1fr; }
   .case__work { grid-template-columns: 1fr; }
+  .case[data-accent="forest"] .case__card { aspect-ratio: 9 / 16; }
+  .case__quote { padding-left: 28px; }
   .case__strip { gap: 14px; padding: var(--space-4) 0; justify-content: flex-start; }
   .case__credits { grid-template-columns: 1fr; align-items: stretch; gap: var(--space-5); }
   .case__back { align-self: flex-start; }
@@ -1377,6 +1381,8 @@ img, svg { display: block; max-width: 100%; }
     grid-template-columns: 1fr;
     gap: var(--space-7);
   }
+  .about__portrait { max-width: 280px; }
+  .about__portrait img { height: auto; }
   .about__body { padding-top: 0; }
   .about__paragraphs { grid-template-columns: 1fr; }
   .about__grid { grid-template-columns: repeat(2, 1fr); }
